@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80790993016",
+    "firebase_url": "https://cricket-4ad51.firebaseio.com",
+    "project_id": "cricket-4ad51",
+    "storage_bucket": "cricket-4ad51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80790993016:android:8b87d7d9e25d874099158d",
+        "android_client_info": {
+          "package_name": "com.example.mpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80790993016-o5ppjjl2p9ugghtvib5t9s9ao8uuq5gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpl",
+            "certificate_hash": "e084734f5abfad24b2207459327b0261aca54a63"
+          }
+        },
+        {
+          "client_id": "80790993016-vd56j1ub2v7rlerf8jm514fp26vma80e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaRlGa4O50TApgiLfQGainKupEOWPXUw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80790993016-vd56j1ub2v7rlerf8jm514fp26vma80e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

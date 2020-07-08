@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    android:orientation="vertical"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:text="I am Sathursan.K, This is my mini project.I developed this app to Maintain records our street cricket scores and moments of our wonderful time. This app is mainly focus on Adding Cricket Score digitally.This App may have some bugs. I will correct it and release the updated version soon. THANKYOU  "
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle=""
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>

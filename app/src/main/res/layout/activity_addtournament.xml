@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2"
+    tools:context=".Addtournament">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Tournament"
+        android:textSize="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:text="Tournament Name:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="No. Of Overs:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pass0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="No. Of Players:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pass11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+        />
+
+
+
+
+
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Pick Date"
+        android:textSize="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/custom_button"
+
+        />
+
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:hint="Date"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+        />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Team Name1:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Team Name2:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pass3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+
+
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Team Name3:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pass4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+        android:visibility="gone"
+
+        />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Team Name4:"
+        android:textColor="#022039"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pass5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:ems="8"
+        android:text=""
+        android:visibility="gone"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ODI / T20"
+        android:textSize="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/custom_button"
+        android:onClick="next"
+        />
+
+
+
+</LinearLayout>

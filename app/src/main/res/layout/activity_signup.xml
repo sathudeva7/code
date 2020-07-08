@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2"
+    tools:context=".SignupActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="SIGNUP"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="255dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp"
+
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/ramabhadra"
+            android:text="UserName"
+
+            android:textColor="#022039"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:ems="8"
+            android:text=""
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/ramabhadra"
+            android:text="Email"
+            android:textColor="#022039"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="60dp"
+            android:ems="8"
+            android:text=""
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/ramabhadra"
+            android:text="Password"
+            android:textColor="#022039"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="120dp"
+
+            android:ems="8"
+            android:inputType="textPassword"
+            android:text="" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="180dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/ramabhadra"
+            android:gravity="center"
+            android:text="Submit"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
